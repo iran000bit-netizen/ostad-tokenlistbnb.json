@@ -1,0 +1,189 @@
+{
+  "name": "Ostad",
+  "timestamp": "2026-09-09T12:00:00.000Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 2
+  },
+  "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png",
+  "keywords": ["ostad", "personal", "bsc"],
+  "tokens": [
+    {
+      "name": "Bitcoin BR",
+      "symbol": "BTCBR",
+      "address": "0x0cf8e180350253271f4b917ccfb0accc4862f262",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png"
+    },
+    {
+      "name": "ThankYou",
+      "symbol": "ThankYou",
+      "address": "0x0f9adaaccd7caecc5019194e15ad19624fed95fa",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png"
+    },
+    {
+      "name": "USDT",
+      "symbol": "USDT",
+      "address": "0x220a76dbdee0fd91feb68833ee78a95f302d3be5",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png"
+    },
+    {
+      "name": "BNBTiger",
+      "symbol": "BNBTiger",
+      "address": "0x24a0cacb6158ef7c40970c457eb673a4cbc3bdc4",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png"
+    },
+    {
+      "name": "USDT",
+      "symbol": "USDT",
+      "address": "0x3428846a84facb8cf518dc35c8159e5dc4a45f1f",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png"
+    },
+    {
+      "name": "Tether USDT",
+      "symbol": "USDT",
+      "address": "0x40d22bbba65a2742c91eeb6e1dd46f95c7f71409",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png"
+    },
+    {
+      "name": "USDT",
+      "symbol": "USDT",
+      "address": "0x446e64e02b802c189490f316143ef106f68f9770",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png"
+    },
+    {
+      "name": "Bitcoin",
+      "symbol": "BTCB",
+      "address": "0x4a471863b7d30826a26cf022c0f8e32a9f80668a",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png"
+    },
+    {
+      "name": "Wrapped BTC",
+      "symbol": "BTCB",
+      "address": "0x51f9fa243cd4dcdacccd7329d2278117b6893a3d",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png"
+    },
+    {
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "address": "0x521b42181b947f6a076d9bfb85e08a9610a43e8e",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png"
+    },
+    {
+      "name": "USDT",
+      "symbol": "USDT",
+      "address": "0x61ec2122a50296e1bec664c3ad08b1463b5a18ce",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png"
+    },
+    {
+      "name": "OSTAD",
+      "symbol": "OSTAD",
+      "address": "0x64db9264a4e4b48bf6b5cf6d8b5dd5bff00fd189",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png"
+    },
+    {
+      "name": "OSTAD",
+      "symbol": "MHOS",
+      "address": "0x6c7dc8a0e74e6df0c3436963c05c6a50bb362cbc",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png"
+    },
+    {
+      "name": "BitcoinBR",
+      "symbol": "BTCBR",
+      "address": "0x80109dae24e49e415e8e6a066d96d3bdbf8f401f",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png"
+    },
+    {
+      "name": "OSTAD",
+      "symbol": "ABOS",
+      "address": "0x9963396d2f94e527a77d3bf9d452e9bb3ecc8469",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png"
+    },
+    {
+      "name": "Ostad",
+      "symbol": "OSTAD",
+      "address": "0xa08d4942ee6f4be6710138a67b6c4a35ac7b2564",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png"
+    },
+    {
+      "name": "OSTAD",
+      "symbol": "AROS",
+      "address": "0xb9785e89e1d7511ef468c058e14011bc75fd96c0",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png"
+    },
+    {
+      "name": "USDT",
+      "symbol": "USDT",
+      "address": "0xba4178de4831f342dee6814c74d78457949a74b1",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png"
+    },
+    {
+      "name": "token usdt.iapp",
+      "symbol": "USDT",
+      "address": "0xc8625e13f466c7727ab601525f321304353e1ed2",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png"
+    },
+    {
+      "name": "Wrapped BNB",
+      "symbol": "WBNB",
+      "address": "0xe85a67a9c5297bff650c821a77dac4ecb63ea60b",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png"
+    },
+    {
+      "name": "Binance Cat",
+      "symbol": "BNBCAT",
+      "address": "0xf42c161764030bd6a04fa7f69cac314aaa002ad9",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png"
+    },
+    {
+      "name": "USDC",
+      "symbol": "USDC",
+      "address": "0xf8f9c69652140a39359496928242340f38a3a8f4",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png"
+    }
+  ]
+}
