@@ -1,0 +1,611 @@
+{
+  "name": "OSTAD ETH & BNB Token Registry",
+  "schema": "ostad.token-registry.v1",
+  "version": "2.0.0",
+  "updatedAt": "2026-09-09T16:03:34.110648+00:00",
+  "description": "Professional EVM token registry for OSTAD-related assets and audited BSC contracts, prepared for GitHub publication.",
+  "deployer": {
+    "address": "0x77787076fCfC8E722F8FaE50814a77DDd98b65be",
+    "role": "declared_deployer_and_owner_account",
+    "verification": "user_declared",
+    "note": "Recorded according to the user's declaration; this JSON does not independently prove deployment authorship."
+  },
+  "networks": [
+    {
+      "name": "BNB Smart Chain",
+      "shortName": "BSC",
+      "chainId": 56,
+      "nativeCurrency": {
+        "name": "BNB",
+        "symbol": "BNB",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "Ethereum",
+      "shortName": "ETH",
+      "chainId": 1,
+      "nativeCurrency": {
+        "name": "Ether",
+        "symbol": "ETH",
+        "decimals": 18
+      }
+    }
+  ],
+  "ownership_statement": {
+    "claim": "The user declares that the listed OSTAD contracts are associated with and/or deployed by the account above.",
+    "status": "DECLARED_NOT_INDEPENDENTLY_PROVEN",
+    "proof_standard": "Independent proof requires the contract creation transaction/deployer relationship or equivalent explorer evidence."
+  },
+  "audit_summary": {
+    "scope": "Addresses supplied to the BSC/Ethereum audit script",
+    "audited_addresses": 250,
+    "result_observed": "The supplied console output showed all 250 addresses as EOA_OR_EMPTY on both BSC and Ethereum.",
+    "interpretation": "That console output does not establish ownership or authorship; it only reports no contract bytecode detected at those addresses at the time of the check.",
+    "known_bsc_erc20_contracts": 22
+  },
+  "tokens": [
+    {
+      "name": "Bitcoin BR",
+      "symbol": "BTCBR",
+      "address": "0x0cf8e180350253271f4b917ccfb0accc4862f262",
+      "chainId": 56,
+      "network": "BSC",
+      "decimals": 18,
+      "deployer": "0x77787076fCfC8E722F8FaE50814a77DDd98b65be",
+      "ownership": {
+        "claimedCreator": true,
+        "verification": "user_declared"
+      },
+      "verification": {
+        "contractCodeDetected": true,
+        "erc20MetadataRead": true,
+        "sourceVerified": false,
+        "creationTxVerified": false
+      },
+      "logoURI": null,
+      "tags": [],
+      "links": {
+        "bscscan": "https://bscscan.com/token/0x0cf8e180350253271f4b917ccfb0accc4862f262"
+      }
+    },
+    {
+      "name": "ThankYou",
+      "symbol": "ThankYou",
+      "address": "0x0f9adaaccd7caecc5019194e15ad19624fed95fa",
+      "chainId": 56,
+      "network": "BSC",
+      "decimals": 6,
+      "deployer": "0x77787076fCfC8E722F8FaE50814a77DDd98b65be",
+      "ownership": {
+        "claimedCreator": true,
+        "verification": "user_declared"
+      },
+      "verification": {
+        "contractCodeDetected": true,
+        "erc20MetadataRead": true,
+        "sourceVerified": false,
+        "creationTxVerified": false
+      },
+      "logoURI": null,
+      "tags": [],
+      "links": {
+        "bscscan": "https://bscscan.com/token/0x0f9adaaccd7caecc5019194e15ad19624fed95fa"
+      }
+    },
+    {
+      "name": "USDT",
+      "symbol": "USDT",
+      "address": "0x220a76dbdee0fd91feb68833ee78a95f302d3be5",
+      "chainId": 56,
+      "network": "BSC",
+      "decimals": 18,
+      "deployer": "0x77787076fCfC8E722F8FaE50814a77DDd98b65be",
+      "ownership": {
+        "claimedCreator": true,
+        "verification": "user_declared"
+      },
+      "verification": {
+        "contractCodeDetected": true,
+        "erc20MetadataRead": true,
+        "sourceVerified": false,
+        "creationTxVerified": false
+      },
+      "logoURI": null,
+      "tags": [],
+      "links": {
+        "bscscan": "https://bscscan.com/token/0x220a76dbdee0fd91feb68833ee78a95f302d3be5"
+      }
+    },
+    {
+      "name": "BNBTiger",
+      "symbol": "BNBTiger",
+      "address": "0x24a0cacb6158ef7c40970c457eb673a4cbc3bdc4",
+      "chainId": 56,
+      "network": "BSC",
+      "decimals": 18,
+      "deployer": "0x77787076fCfC8E722F8FaE50814a77DDd98b65be",
+      "ownership": {
+        "claimedCreator": true,
+        "verification": "user_declared"
+      },
+      "verification": {
+        "contractCodeDetected": true,
+        "erc20MetadataRead": true,
+        "sourceVerified": false,
+        "creationTxVerified": false
+      },
+      "logoURI": null,
+      "tags": [],
+      "links": {
+        "bscscan": "https://bscscan.com/token/0x24a0cacb6158ef7c40970c457eb673a4cbc3bdc4"
+      }
+    },
+    {
+      "name": "USDT",
+      "symbol": "USDT",
+      "address": "0x3428846a84facb8cf518dc35c8159e5dc4a45f1f",
+      "chainId": 56,
+      "network": "BSC",
+      "decimals": 18,
+      "deployer": "0x77787076fCfC8E722F8FaE50814a77DDd98b65be",
+      "ownership": {
+        "claimedCreator": true,
+        "verification": "user_declared"
+      },
+      "verification": {
+        "contractCodeDetected": true,
+        "erc20MetadataRead": true,
+        "sourceVerified": false,
+        "creationTxVerified": false
+      },
+      "logoURI": null,
+      "tags": [],
+      "links": {
+        "bscscan": "https://bscscan.com/token/0x3428846a84facb8cf518dc35c8159e5dc4a45f1f"
+      }
+    },
+    {
+      "name": "Tether USDT",
+      "symbol": "USDT",
+      "address": "0x40d22bbba65a2742c91eeb6e1dd46f95c7f71409",
+      "chainId": 56,
+      "network": "BSC",
+      "decimals": 18,
+      "deployer": "0x77787076fCfC8E722F8FaE50814a77DDd98b65be",
+      "ownership": {
+        "claimedCreator": true,
+        "verification": "user_declared"
+      },
+      "verification": {
+        "contractCodeDetected": true,
+        "erc20MetadataRead": true,
+        "sourceVerified": false,
+        "creationTxVerified": false
+      },
+      "logoURI": null,
+      "tags": [],
+      "links": {
+        "bscscan": "https://bscscan.com/token/0x40d22bbba65a2742c91eeb6e1dd46f95c7f71409"
+      }
+    },
+    {
+      "name": "USDT",
+      "symbol": "USDT",
+      "address": "0x446e64e02b802c189490f316143ef106f68f9770",
+      "chainId": 56,
+      "network": "BSC",
+      "decimals": 18,
+      "deployer": "0x77787076fCfC8E722F8FaE50814a77DDd98b65be",
+      "ownership": {
+        "claimedCreator": true,
+        "verification": "user_declared"
+      },
+      "verification": {
+        "contractCodeDetected": true,
+        "erc20MetadataRead": true,
+        "sourceVerified": false,
+        "creationTxVerified": false
+      },
+      "logoURI": null,
+      "tags": [],
+      "links": {
+        "bscscan": "https://bscscan.com/token/0x446e64e02b802c189490f316143ef106f68f9770"
+      }
+    },
+    {
+      "name": "Bitcoin",
+      "symbol": "BTCB",
+      "address": "0x4a471863b7d30826a26cf022c0f8e32a9f80668a",
+      "chainId": 56,
+      "network": "BSC",
+      "decimals": 18,
+      "deployer": "0x77787076fCfC8E722F8FaE50814a77DDd98b65be",
+      "ownership": {
+        "claimedCreator": true,
+        "verification": "user_declared"
+      },
+      "verification": {
+        "contractCodeDetected": true,
+        "erc20MetadataRead": true,
+        "sourceVerified": false,
+        "creationTxVerified": false
+      },
+      "logoURI": null,
+      "tags": [],
+      "links": {
+        "bscscan": "https://bscscan.com/token/0x4a471863b7d30826a26cf022c0f8e32a9f80668a"
+      }
+    },
+    {
+      "name": "Wrapped BTC",
+      "symbol": "BTCB",
+      "address": "0x51f9fa243cd4dcdacccd7329d2278117b6893a3d",
+      "chainId": 56,
+      "network": "BSC",
+      "decimals": 18,
+      "deployer": "0x77787076fCfC8E722F8FaE50814a77DDd98b65be",
+      "ownership": {
+        "claimedCreator": true,
+        "verification": "user_declared"
+      },
+      "verification": {
+        "contractCodeDetected": true,
+        "erc20MetadataRead": true,
+        "sourceVerified": false,
+        "creationTxVerified": false
+      },
+      "logoURI": null,
+      "tags": [],
+      "links": {
+        "bscscan": "https://bscscan.com/token/0x51f9fa243cd4dcdacccd7329d2278117b6893a3d"
+      }
+    },
+    {
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "address": "0x521b42181b947f6a076d9bfb85e08a9610a43e8e",
+      "chainId": 56,
+      "network": "BSC",
+      "decimals": 18,
+      "deployer": "0x77787076fCfC8E722F8FaE50814a77DDd98b65be",
+      "ownership": {
+        "claimedCreator": true,
+        "verification": "user_declared"
+      },
+      "verification": {
+        "contractCodeDetected": true,
+        "erc20MetadataRead": true,
+        "sourceVerified": false,
+        "creationTxVerified": false
+      },
+      "logoURI": null,
+      "tags": [],
+      "links": {
+        "bscscan": "https://bscscan.com/token/0x521b42181b947f6a076d9bfb85e08a9610a43e8e"
+      }
+    },
+    {
+      "name": "USDT",
+      "symbol": "USDT",
+      "address": "0x61ec2122a50296e1bec664c3ad08b1463b5a18ce",
+      "chainId": 56,
+      "network": "BSC",
+      "decimals": 18,
+      "deployer": "0x77787076fCfC8E722F8FaE50814a77DDd98b65be",
+      "ownership": {
+        "claimedCreator": true,
+        "verification": "user_declared"
+      },
+      "verification": {
+        "contractCodeDetected": true,
+        "erc20MetadataRead": true,
+        "sourceVerified": false,
+        "creationTxVerified": false
+      },
+      "logoURI": null,
+      "tags": [],
+      "links": {
+        "bscscan": "https://bscscan.com/token/0x61ec2122a50296e1bec664c3ad08b1463b5a18ce"
+      }
+    },
+    {
+      "name": "OSTAD",
+      "symbol": "OSTAD",
+      "address": "0x64db9264a4e4b48bf6b5cf6d8b5dd5bff00fd189",
+      "chainId": 56,
+      "network": "BSC",
+      "decimals": 18,
+      "deployer": "0x77787076fCfC8E722F8FaE50814a77DDd98b65be",
+      "ownership": {
+        "claimedCreator": true,
+        "verification": "user_declared"
+      },
+      "verification": {
+        "contractCodeDetected": true,
+        "erc20MetadataRead": true,
+        "sourceVerified": false,
+        "creationTxVerified": false
+      },
+      "logoURI": null,
+      "tags": [
+        "OSTAD"
+      ],
+      "links": {
+        "bscscan": "https://bscscan.com/token/0x64db9264a4e4b48bf6b5cf6d8b5dd5bff00fd189"
+      }
+    },
+    {
+      "name": "OSTAD",
+      "symbol": "MHOS",
+      "address": "0x6c7dc8a0e74e6df0c3436963c05c6a50bb362cbc",
+      "chainId": 56,
+      "network": "BSC",
+      "decimals": 18,
+      "deployer": "0x77787076fCfC8E722F8FaE50814a77DDd98b65be",
+      "ownership": {
+        "claimedCreator": true,
+        "verification": "user_declared"
+      },
+      "verification": {
+        "contractCodeDetected": true,
+        "erc20MetadataRead": true,
+        "sourceVerified": false,
+        "creationTxVerified": false
+      },
+      "logoURI": null,
+      "tags": [
+        "OSTAD"
+      ],
+      "links": {
+        "bscscan": "https://bscscan.com/token/0x6c7dc8a0e74e6df0c3436963c05c6a50bb362cbc"
+      }
+    },
+    {
+      "name": "BitcoinBR",
+      "symbol": "BTCBR",
+      "address": "0x80109dae24e49e415e8e6a066d96d3bdbf8f401f",
+      "chainId": 56,
+      "network": "BSC",
+      "decimals": 18,
+      "deployer": "0x77787076fCfC8E722F8FaE50814a77DDd98b65be",
+      "ownership": {
+        "claimedCreator": true,
+        "verification": "user_declared"
+      },
+      "verification": {
+        "contractCodeDetected": true,
+        "erc20MetadataRead": true,
+        "sourceVerified": false,
+        "creationTxVerified": false
+      },
+      "logoURI": null,
+      "tags": [],
+      "links": {
+        "bscscan": "https://bscscan.com/token/0x80109dae24e49e415e8e6a066d96d3bdbf8f401f"
+      }
+    },
+    {
+      "name": "OSTAD",
+      "symbol": "ABOS",
+      "address": "0x9963396d2f94e527a77d3bf9d452e9bb3ecc8469",
+      "chainId": 56,
+      "network": "BSC",
+      "decimals": 18,
+      "deployer": "0x77787076fCfC8E722F8FaE50814a77DDd98b65be",
+      "ownership": {
+        "claimedCreator": true,
+        "verification": "user_declared"
+      },
+      "verification": {
+        "contractCodeDetected": true,
+        "erc20MetadataRead": true,
+        "sourceVerified": false,
+        "creationTxVerified": false
+      },
+      "logoURI": null,
+      "tags": [
+        "OSTAD"
+      ],
+      "links": {
+        "bscscan": "https://bscscan.com/token/0x9963396d2f94e527a77d3bf9d452e9bb3ecc8469"
+      }
+    },
+    {
+      "name": "Ostad",
+      "symbol": "OSTAD",
+      "address": "0xa08d4942ee6f4be6710138a67b6c4a35ac7b2564",
+      "chainId": 56,
+      "network": "BSC",
+      "decimals": 18,
+      "deployer": "0x77787076fCfC8E722F8FaE50814a77DDd98b65be",
+      "ownership": {
+        "claimedCreator": true,
+        "verification": "user_declared"
+      },
+      "verification": {
+        "contractCodeDetected": true,
+        "erc20MetadataRead": true,
+        "sourceVerified": false,
+        "creationTxVerified": false
+      },
+      "logoURI": null,
+      "tags": [
+        "OSTAD"
+      ],
+      "links": {
+        "bscscan": "https://bscscan.com/token/0xa08d4942ee6f4be6710138a67b6c4a35ac7b2564"
+      }
+    },
+    {
+      "name": "OSTAD",
+      "symbol": "AROS",
+      "address": "0xb9785e89e1d7511ef468c058e14011bc75fd96c0",
+      "chainId": 56,
+      "network": "BSC",
+      "decimals": 18,
+      "deployer": "0x77787076fCfC8E722F8FaE50814a77DDd98b65be",
+      "ownership": {
+        "claimedCreator": true,
+        "verification": "user_declared"
+      },
+      "verification": {
+        "contractCodeDetected": true,
+        "erc20MetadataRead": true,
+        "sourceVerified": false,
+        "creationTxVerified": false
+      },
+      "logoURI": null,
+      "tags": [
+        "OSTAD"
+      ],
+      "links": {
+        "bscscan": "https://bscscan.com/token/0xb9785e89e1d7511ef468c058e14011bc75fd96c0"
+      }
+    },
+    {
+      "name": "USDT",
+      "symbol": "USDT",
+      "address": "0xba4178de4831f342dee6814c74d78457949a74b1",
+      "chainId": 56,
+      "network": "BSC",
+      "decimals": 18,
+      "deployer": "0x77787076fCfC8E722F8FaE50814a77DDd98b65be",
+      "ownership": {
+        "claimedCreator": true,
+        "verification": "user_declared"
+      },
+      "verification": {
+        "contractCodeDetected": true,
+        "erc20MetadataRead": true,
+        "sourceVerified": false,
+        "creationTxVerified": false
+      },
+      "logoURI": null,
+      "tags": [],
+      "links": {
+        "bscscan": "https://bscscan.com/token/0xba4178de4831f342dee6814c74d78457949a74b1"
+      }
+    },
+    {
+      "name": "token usdt.iapp",
+      "symbol": "USDT",
+      "address": "0xc8625e13f466c7727ab601525f321304353e1ed2",
+      "chainId": 56,
+      "network": "BSC",
+      "decimals": 6,
+      "deployer": "0x77787076fCfC8E722F8FaE50814a77DDd98b65be",
+      "ownership": {
+        "claimedCreator": true,
+        "verification": "user_declared"
+      },
+      "verification": {
+        "contractCodeDetected": true,
+        "erc20MetadataRead": true,
+        "sourceVerified": false,
+        "creationTxVerified": false
+      },
+      "logoURI": null,
+      "tags": [],
+      "links": {
+        "bscscan": "https://bscscan.com/token/0xc8625e13f466c7727ab601525f321304353e1ed2"
+      }
+    },
+    {
+      "name": "Wrapped BNB",
+      "symbol": "WBNB",
+      "address": "0xe85a67a9c5297bff650c821a77dac4ecb63ea60b",
+      "chainId": 56,
+      "network": "BSC",
+      "decimals": 18,
+      "deployer": "0x77787076fCfC8E722F8FaE50814a77DDd98b65be",
+      "ownership": {
+        "claimedCreator": true,
+        "verification": "user_declared"
+      },
+      "verification": {
+        "contractCodeDetected": true,
+        "erc20MetadataRead": true,
+        "sourceVerified": false,
+        "creationTxVerified": false
+      },
+      "logoURI": null,
+      "tags": [],
+      "links": {
+        "bscscan": "https://bscscan.com/token/0xe85a67a9c5297bff650c821a77dac4ecb63ea60b"
+      }
+    },
+    {
+      "name": "Binance Cat",
+      "symbol": "BNBCAT",
+      "address": "0xf42c161764030bd6a04fa7f69cac314aaa002ad9",
+      "chainId": 56,
+      "network": "BSC",
+      "decimals": 18,
+      "deployer": "0x77787076fCfC8E722F8FaE50814a77DDd98b65be",
+      "ownership": {
+        "claimedCreator": true,
+        "verification": "user_declared"
+      },
+      "verification": {
+        "contractCodeDetected": true,
+        "erc20MetadataRead": true,
+        "sourceVerified": false,
+        "creationTxVerified": false
+      },
+      "logoURI": null,
+      "tags": [],
+      "links": {
+        "bscscan": "https://bscscan.com/token/0xf42c161764030bd6a04fa7f69cac314aaa002ad9"
+      }
+    },
+    {
+      "name": "USDC",
+      "symbol": "USDC",
+      "address": "0xf8f9c69652140a39359496928242340f38a3a8f4",
+      "chainId": 56,
+      "network": "BSC",
+      "decimals": 18,
+      "deployer": "0x77787076fCfC8E722F8FaE50814a77DDd98b65be",
+      "ownership": {
+        "claimedCreator": true,
+        "verification": "user_declared"
+      },
+      "verification": {
+        "contractCodeDetected": true,
+        "erc20MetadataRead": true,
+        "sourceVerified": false,
+        "creationTxVerified": false
+      },
+      "logoURI": null,
+      "tags": [],
+      "links": {
+        "bscscan": "https://bscscan.com/token/0xf8f9c69652140a39359496928242340f38a3a8f4"
+      }
+    }
+  ],
+  "publication": {
+    "recommendedFilename": "ostad-eth-bnb.json",
+    "format": "JSON",
+    "githubReady": true,
+    "securityNote": "Contract address is the authoritative identifier; names and symbols alone do not establish official affiliation.",
+    "ownershipNote": "Creator/deployer claims are user_declared unless independently verified on-chain."
+  },
+  "audit_results": {
+    "networks": [
+      {
+        "network": "BNB Smart Chain",
+        "chainId": 56,
+        "status": "audited"
+      },
+      {
+        "network": "Ethereum",
+        "chainId": 1,
+        "status": "audited"
+      }
+    ],
+    "reported_address_count": 250,
+    "reported_result_for_250_addresses": "EOA_OR_EMPTY on both BNB Smart Chain and Ethereum",
+    "note": "The individual 250 address strings were not present in the available source JSON, so none were fabricated."
+  }
+}
